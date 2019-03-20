@@ -137,12 +137,31 @@ body {
 
 #content p span {
   font-family: 'Lora', sans-serif;
+  color: yellow;
 }
 
+#personal-site {
+  background: #222;
+  background:rgba(0,0,0,0.7);
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  border-radius: 10px;
+  padding: 0px 30px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
-
+#personal-site p a {
+    font-family: 'Lora', sans-serif;
+    color: aqua;
+    text-decoration: none;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
